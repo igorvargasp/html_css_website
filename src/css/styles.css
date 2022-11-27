@@ -239,6 +239,7 @@
     border-radius: 7px;
     background-color: #3882F6;
     color: white;
+    cursor: pointer;
 }
 
 footer {
