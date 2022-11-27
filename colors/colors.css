@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: #FF00FF;
+}
+
+h3 {
+    color: rgb(0, 255, 0);
+}
+
+h4{
+    color: hsl(59, 100%, 50%);
+}

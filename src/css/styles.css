@@ -1,0 +1,254 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1F2937;
+    gap: 5rem;
+    height: 600px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: #1F2937;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.nav__content {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.nav__menu, ul, a {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__section{
+    display: flex;
+    width: 100%;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.header__content{
+    display: flex;
+    width: 65%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__content--left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 45%;
+   
+}
+
+.header__content--right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #777676;
+    color: #F9FAF8;
+    height: 250px; 
+}
+
+.header__content--left h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding-top: 2rem;
+}
+
+.header__content--left p {
+    font-size: 18px;
+    text-align: justify;
+    color: #E5E7EB;
+}
+
+.header__content--left button {
+   font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 0.5px solid #3882F6;
+    border-radius: 7px;
+    padding: 5px 35px 5px 35px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    height: 550px;
+    align-items: center;
+}
+
+.content article > h1 {
+    display: flex;
+    width: 100%;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.content__container {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.content__card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #9a9b9c;
+    gap: 0.5rem;
+}
+
+.content__card article {
+    width: 100%;
+    height: 170px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;   
+}
+
+.quote {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    gap: 1rem;
+    text-align: left;
+}
+
+.quote section {
+    width: 42%;
+}
+
+.quote section i {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 42%;
+}
+
+.quote section strong {
+    width: 95%;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    flex-direction: row-reverse;
+}
+
+.sugestion {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sugestion__section {
+    width: 65%;
+    display: flex;
+    background-color: #3882F6;
+    padding: 2rem 10rem 3rem 10rem;
+    border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.sugestion__section article:first-child {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.sugestion__section h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding-top: 2rem;
+}
+.sugestion__section article:nth-child(2) {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 2rem;
+
+}
+
+.sugestion__section button {
+    width: 30%;
+    padding: 5px 35px 5px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: #3882F6;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
+}
+
+

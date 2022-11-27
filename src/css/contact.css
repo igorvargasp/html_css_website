@@ -1,0 +1,133 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1F2937;
+    gap: 5rem;
+    height: 80px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: #1F2937;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.nav__content {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.nav__menu, ul, a {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer__section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 785px;
+}
+
+.form__section {
+    display: flex;
+    width: 40%;
+    border: 1px solid #1F2937;
+    border-radius: 7px;
+    height: 500px;
+    margin-top: 5rem;
+    box-shadow: 0px 0px 5px #1F2937;
+
+}
+h1 {
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+label {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+input {
+    width: 50%;
+    height: 40px;
+    border: 1px solid #1F2937;
+    border-radius: 5px;
+    padding-left: 1rem;
+}
+
+textarea {
+    width: 50%;
+    height: 100px;
+    border: 1px solid #1F2937;
+    border-radius: 5px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+textarea:focus, input:focus {
+    outline: none !important;
+    border:1px solid #3882F6;
+}
+
+button {
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    color: white;
+    background-color: #3882F6;
+    border: #3882F6;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
+}
